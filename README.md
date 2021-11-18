@@ -1,4 +1,4 @@
-# 🤵‍♂️ React-Butler
+# 🤵‍♂️ React-Butler-Chrome-Extension
 
 A React ⚛️, Typescript & Emotion 👩‍🎤 starter pack.
 
@@ -22,4 +22,3 @@ or
 
 
 
-# react-butler-chrome-extension
