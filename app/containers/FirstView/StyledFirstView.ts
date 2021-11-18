@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 const StyledFirstView = styled.div`
-  background-color: red;
+  background-color: #2c2e43;
   max-width: 512px;
   max-height: 512px;
   width: 512px;
@@ -10,11 +10,13 @@ const StyledFirstView = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'RobotoItalic', sans-serif;
+  font-size: 14px;
+  color: #b2b1b9;
   & > a {
     display: inline-block;
-    color: #fefefe;
-    font-size: 14px;
+    color: #ffd523;
+    font-family: 'RobotoItalic', sans-serif;
+    font-size: 16px;
   }
 `;
 

@@ -40,8 +40,14 @@ const baseLoaders = [
       }
     }
   },
+
   {
-    test: /\.(jpe?g|png|gif|svg)$/i,
+    test: /\.svg$/,
+    use: ['@svgr/webpack', 'file-loader']
+  },
+
+  {
+    test: /\.(jpe?g|png|gif)$/i,
     type: 'asset/resource'
   },
   {

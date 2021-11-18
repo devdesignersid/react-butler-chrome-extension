@@ -6,7 +6,7 @@ import StyledSecondView from './StyledSecondView';
 const SecondView = () => {
   return (
     <StyledSecondView>
-      This is second view!
+      This is the second view!
       <a href="#" onClick={() => goBack()}>
         &#8592; Go Back
       </a>

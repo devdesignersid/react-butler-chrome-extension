@@ -13,6 +13,7 @@
   "author": "Siddharth S Kumar",
   "license": "ISC",
   "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
     "@swc/core": "^1.2.106",
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",

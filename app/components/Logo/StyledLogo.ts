@@ -2,9 +2,9 @@ import styled from '@emotion/styled';
 
 const StyledLogo = styled.img`
   position: absolute;
-  width: 256px;
-  top: 25%;
-  left: 25%;
+  width: 128px;
+  top: 18%;
+  left: 35%;
     -webkit-animation:spin 6s linear infinite;
     -moz-animation:spin 6s linear infinite;
     animation:spin 6s linear infinite;
