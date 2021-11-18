@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "name": "React Butler Chrome Extension",
+  "description": "React typescript chrome extension starter pack.",
+  "short_name": "React Butler",
+  "permissions": [],
+  "background": {
+    "page": "background.html",
+    "scripts": []
+  },
+  "icons": {
+    "16": "icons/react.png"
+  },
+  "browser_action": {
+    "default_title": "React Butler Chrome Extension",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/react.png"
+    }
+  }
+}
